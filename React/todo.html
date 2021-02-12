@@ -29,7 +29,7 @@
                                 }
                             </ul>
                             <input value = {this.state.input} onChange = {this.handleChange} />
-                            <button onClick = {this.addTodo}> Add task </button>
+                            <button onClick = {this.addTask}> Add task </button>
                             
                         </div>
                         
@@ -51,9 +51,10 @@
                         input: event.target.value
                     });
                 }
-                addTodo = ()=>{
+                addTask = ()=>{
                     this.setState(oldState=>({
-                        tasks: [...oldState.tasks, oldState.input]
+                        tasks: [...oldState.tasks, oldState.input],
+                        input: ""
                     }));
                 }
                 

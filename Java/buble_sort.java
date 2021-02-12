@@ -1,4 +1,4 @@
-public class buble{
+public class buble_sort{
 
     public static void main(String[] args) {
       int a[] = new int []{10,1,5,4,2,4,6,7,-1};

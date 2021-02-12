@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>
+            Simple Bools and Cows game
+        </title>
+        <style>
+            table, td, th{
+                border: 1px solid black;
+                
+            }
+            table{
+                border-collapse: collapse;
+            }
+
+            #center{
+                margin: 10px 100px 100px 400px;
+                border: 0px solid black;
+                border-collapse: 0;
+            }
+
+            td, th{
+                padding: 10px;
+            }
+
+            #instructions{
+                text-align: center;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        <p id = "instructions">Player 1 number: </p>
+        
+        <div id="app">
+
+            <table id="center">
+
+                <tr>
+                    <td>
+                        <div id="setupDiv">
+                            <form id="setupForm">
+                                <input type="text" id="selectedNumber">
+                                <input type="submit" value="Confirm" >
+                            </form>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div id="setupDiv">
+                            <form id="setupForm">
+                                <input type="text" id="selectedNumber">
+                                <input type="submit" value="Confirm" >
+                            </form>
+                        </div>
+                    </td>
+                    
+                    
+
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <div id = "game1">
+                            <form id="gameForm">
+                                <table style="border: 1px solid black; border-collapse: collapse;">
+                                    <tr>
+                                        <td>#</td>
+                                        <td>Guess</td>
+                                        <td>Result</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><input type="text" id="selectedNumber"></td>
+                                        <td><input type="submit" value="Confirm" ></td>
+                                    </tr>
+                                </table>
+                            </form>
+                            
+                        </div>
+                    </td>
+
+                    <td>
+                        <div id = "game1">
+                            <form id="gameForm">
+                                <table style="border: 1px solid black; border-collapse: collapse;">
+                                    <tr>
+                                        <td>#</td>
+                                        <td>Guess</td>
+                                        <td>Result</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><input type="text" id="selectedNumber"></td>
+                                        <td><input type="submit" value="Confirm" ></td>
+                                    </tr>
+                                    
+                                    
+                                </table>
+                            </form>
+                            
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            
+            
+        </div>
+        <script src="app.js"></script>
+    </body>
+
+</html>
